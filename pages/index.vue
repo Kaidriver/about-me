@@ -94,6 +94,9 @@
           </div>
         </div>
       </div>
+      <div class="food">
+        <h3 class="overlay" id="food-text">Scroll down for food ⬇️</h3>
+      </div>
     </div>
 </template>
 
@@ -137,7 +140,6 @@ let showImg = (e: any) => {
   margin-top: 5%;
   width: 50%;
   height: auto;
-  color: white;
   margin-left: auto;
   margin-right: auto;
 }
@@ -193,6 +195,10 @@ let showImg = (e: any) => {
 
 a {
   color: white;
+}
+
+#food-text {
+  text-align: center;
 }
 
 @keyframes fadeInOpacity {
